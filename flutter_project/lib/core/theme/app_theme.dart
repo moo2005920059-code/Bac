@@ -78,11 +78,13 @@ class AppTheme {
         prefixIconColor: AppColors.textHint,
         contentPadding: const EdgeInsets.symmetric(horizontal: 20, vertical: 18),
       ),
-      cardTheme: CardTheme(
-        color: AppColors.cardBg,
-        elevation: 0,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-      ),
+      cardTheme: CardThemeData(
+  color: AppColors.cardBg,
+  elevation: 0,
+  shape: RoundedRectangleBorder(
+    borderRadius: BorderRadius.circular(20),
+  ),
+),
       bottomNavigationBarTheme: const BottomNavigationBarThemeData(
         backgroundColor: AppColors.surface,
         selectedItemColor: AppColors.primary,
