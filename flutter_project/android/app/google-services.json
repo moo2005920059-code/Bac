@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1092402747923",
+    "project_id": "bac-app-1c131",
+    "storage_bucket": "bac-app-1c131.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092402747923:android:15f18372fb6441cef97de6",
+        "android_client_info": {
+          "package_name": "com.modbs.bac"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAISZ9y6foC_BYVdbtCxB6tCbPjcH7SJ70"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
