@@ -1,7 +1,3 @@
-// ⚠️ هذا الملف يتم توليده تلقائياً عند تشغيل:
-// flutterfire configure
-// لا تكتبه يدوياً - اتبع خطوات الإعداد في SETUP_GUIDE.md
-
 import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart' show defaultTargetPlatform, kIsWeb, TargetPlatform;
 
@@ -18,30 +14,29 @@ class DefaultFirebaseOptions {
     }
   }
 
-  // ⬇️ استبدل هذه القيم بقيمك الحقيقية من Firebase Console
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'YOUR_ANDROID_API_KEY',
-    appId: 'YOUR_ANDROID_APP_ID',
-    messagingSenderId: 'YOUR_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
-    storageBucket: 'YOUR_PROJECT_ID.appspot.com',
+    apiKey: 'AIzaSyAISZ9y6foC_BYVdbtCxB6tCbPjcH7SJ70',
+    appId: '1:1092402747923:android:15f18372fb6441cef97de6',
+    messagingSenderId: '1092402747923',
+    projectId: 'bac-app-1c131',
+    storageBucket: 'bac-app-1c131.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'YOUR_IOS_API_KEY',
-    appId: 'YOUR_IOS_APP_ID',
-    messagingSenderId: 'YOUR_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
-    storageBucket: 'YOUR_PROJECT_ID.appspot.com',
-    iosBundleId: 'com.yourname.flashcardsapp',
+    apiKey: 'AIzaSyAISZ9y6foC_BYVdbtCxB6tCbPjcH7SJ70',
+    appId: '1:1092402747923:android:15f18372fb6441cef97de6',
+    messagingSenderId: '1092402747923',
+    projectId: 'bac-app-1c131',
+    storageBucket: 'bac-app-1c131.firebasestorage.app',
+    iosBundleId: 'com.modbs.bac',
   );
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'YOUR_WEB_API_KEY',
-    appId: 'YOUR_WEB_APP_ID',
-    messagingSenderId: 'YOUR_SENDER_ID',
-    projectId: 'YOUR_PROJECT_ID',
-    storageBucket: 'YOUR_PROJECT_ID.appspot.com',
-    authDomain: 'YOUR_PROJECT_ID.firebaseapp.com',
+    apiKey: 'AIzaSyAISZ9y6foC_BYVdbtCxB6tCbPjcH7SJ70',
+    appId: '1:1092402747923:android:15f18372fb6441cef97de6',
+    messagingSenderId: '1092402747923',
+    projectId: 'bac-app-1c131',
+    storageBucket: 'bac-app-1c131.firebasestorage.app',
+    authDomain: 'bac-app-1c131.firebaseapp.com',
   );
 }
